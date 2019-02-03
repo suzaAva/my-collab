@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f65;
+}
+
+
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid black; */
+    background: url('../john.jpg');
+    width: 400px;
+    /* height: 300px; */
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 15px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+}
+
+.box .box-input {
+    position: relative; 
+}
+
+.box .box-input input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid rgb(127, 170, 7);
+    margin-bottom: 30px;
+}
+
+.box .box-input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    color: white;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .box-input input:focus~label, 
+.box .box-input input:valid~label {
+    top: -18px;
+    color: rgb(127, 170, 7);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.box input[type="submit"] {
+    border: none;
+    background: transparent;
+    padding: 10px 20px;
+    outline: none;
+    background-color: rgb(127, 170, 7);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
